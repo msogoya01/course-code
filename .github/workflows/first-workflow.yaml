@@ -5,10 +5,8 @@ jobs:
  run-shell-commands:
   runs-on: windows
   steps:
-   - name: multiple commmand     
-     run: |
-      node -v
-      npm -v
-      python --version
+   - name: cmd commmand     
+     run: systeminfo
+
     
     
